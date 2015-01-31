@@ -2,16 +2,22 @@ html { background-color: #2ab5e9;
 
 }
 
-h2 {font-weight: /* normal, bold /*
-  font-size: 5rem;
-  font-style: italic; normal, italic
-  text-decoration: /*underline; underline, line-through/
+h2 {font-weight: normal;/* normal, bold */
+  font-size: 3rem;
+  font-style: normal; /*normal, italic */
+  text-decoration: underline;/* underline, line-through*/
   font-family: 'Fredoka One', cursive;
   line-height: 1.5 ; }
 
-ol{list-style-type: none;
+ul {
+  list-style-type: none;
+  padding: 0;
 
 }
+dt {
+  font-weight: bold;
+}
+
 h1{font-size: 5rem;
   text-align: center;
 }
@@ -23,3 +29,31 @@ li{
 
 }
 .cute {color: red}
+
+span {
+  color: white;
+  font-size: 2rem;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1;
+  color: white;
+
+}
+.neil {
+  font-size: 1.6rem;
+
+}
+figcaption{
+  font-style: italic;
+  padding: 1rem;
+}
+figure{
+  padding: 10px;
+  border: 5px solid white;
+  background-color: gray;
+  border-radius: 10px
+}
