@@ -5,7 +5,7 @@ html { background-color: #2ab5e9;
 h2 {font-weight: normal;/* normal, bold */
   font-size: 3rem;
   font-style: normal; /*normal, italic */
-  text-decoration: underline;/* underline, line-through*/
+  text-decoration: none;/* underline, line-through*/
   font-family: 'Fredoka One', cursive;
   line-height: 1.5 ; }
 
@@ -20,29 +20,31 @@ dt {
 
 h1{font-size: 5rem;
   text-align: center;
+  text-decoration: none;
 }
 
-h1,h2{ font-family: 'Fredoka One', cursive;
+h1,h2,ul,li,dt{ font-family: 'Fredoka One', cursive;
 
 }
-li{
+ul{color: white;
 
 }
 .cute {color: red}
 
 span {
-  color: white;
-  font-size: 2rem;
+  color: #000f80;
+  font-size: 3rem;
 }
 
 blockquote {
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: normal;
   line-height: 1;
   color: white;
 
 }
+
 .neil {
   font-size: 1.6rem;
 
@@ -51,9 +53,18 @@ figcaption{
   font-style: italic;
   padding: 1rem;
 }
-figure{
-  padding: 10px;
-  border: 5px solid white;
-  background-color: gray;
-  border-radius: 10px
+
+a:hover {
+  color: black;
+}
+
+nav {
+  color: white;
+}
+li{
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
 }
