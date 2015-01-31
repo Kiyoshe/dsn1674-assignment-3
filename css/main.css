@@ -3,7 +3,7 @@ html { background-color: #2ab5e9;
 }
 
 h2 {font-weight: normal;/* normal, bold */
-  font-size: 3rem;
+  font-size: 2rem;
   font-style: normal; /*normal, italic */
   text-decoration: none;/* underline, line-through*/
   font-family: 'Fredoka One', cursive;
@@ -18,7 +18,7 @@ dt {
   font-weight: bold;
 }
 
-h1{font-size: 5rem;
+h1{font-size: 4rem;
   text-align: center;
   text-decoration: none;
 }
